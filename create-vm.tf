@@ -10,7 +10,7 @@ provider "azurerm" {
 
 # variables (keeps from typing the same thing over and over)
 locals {
-  lab_name = "dsc-lab-1"
+  lab_name = "dsc-lab"
 }
 
 # set up variables
