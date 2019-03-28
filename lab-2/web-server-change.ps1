@@ -8,6 +8,13 @@ Configuration WebsiteServer {
           Ensure = "Present"
           Name   = "Web-Server"
       }
+
+      File RemoveCruft
+        {
+            Ensure = "Absent"
+            Type = "File"
+            DestinationPath = "C:\inetpub\wwwroot\iisstart.htm"
+        }
   }
 }
-WebsiteServer
+WebsiteServerFail
