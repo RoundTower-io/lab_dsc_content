@@ -4,10 +4,10 @@ Configuration WebsiteServer {
 
   Node 'localhost' {
 
-      WindowsFeature WebServer {
-          Ensure = "Present"
-          Name   = "Web-Server"
-      }
+    WindowsFeature WebServer {
+      Ensure = "Present"
+      Name   = "Web-Server"
+    }
   }
 }
 WebsiteServer
